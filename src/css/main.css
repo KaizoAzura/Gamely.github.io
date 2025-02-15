@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eeeeee !important;
+  color: #000000 !important;
+  overflow-x: hidden;
+}
+
+.navbar-toggler,
+.btn-close,
+.form-select,
+.form-control {
+  border: 0;
+}
+.navbar-toggler:focus,
+.btn-close:focus,
+.form-select:focus,
+.form-control:focus {
+  box-shadow: none;
+  outline: none;
+  border: 0;
+}
+
+.fs-7 {
+  font-size: 0.9rem;
+}
+
+.fs-8 {
+  font-size: 0.8rem;
+}
+
+.fs-9 {
+  font-size: 0.7rem;
+}
+
+.fs-10 {
+  font-size: 0.6rem;
+}
+
+.object-position-top-left {
+  -o-object-position: top left !important;
+     object-position: top left !important;
+}
+
+.object-position-top-center {
+  -o-object-position: top center !important;
+     object-position: top center !important;
+}
+
+.object-position-top-right {
+  -o-object-position: top right !important;
+     object-position: top right !important;
+}
+
+.object-position-center-left {
+  -o-object-position: center left !important;
+     object-position: center left !important;
+}
+
+.object-position-center {
+  -o-object-position: center !important;
+     object-position: center !important;
+}
+
+.object-position-center-right {
+  -o-object-position: center right !important;
+     object-position: center right !important;
+}
+
+.object-position-bottom-left {
+  -o-object-position: bottom left !important;
+     object-position: bottom left !important;
+}
+
+.object-position-bottom-center {
+  -o-object-position: bottom center !important;
+     object-position: bottom center !important;
+}
+
+.object-position-bottom-right {
+  -o-object-position: bottom right !important;
+     object-position: bottom right !important;
+}
+
+@media (min-width: 576px) {
+  .object-position-sm-top-left {
+    -o-object-position: top left !important;
+       object-position: top left !important;
+  }
+  .object-position-sm-top-center {
+    -o-object-position: top center !important;
+       object-position: top center !important;
+  }
+  .object-position-sm-top-right {
+    -o-object-position: top right !important;
+       object-position: top right !important;
+  }
+  .object-position-sm-center-left {
+    -o-object-position: center left !important;
+       object-position: center left !important;
+  }
+  .object-position-sm-center {
+    -o-object-position: center !important;
+       object-position: center !important;
+  }
+  .object-position-sm-center-right {
+    -o-object-position: center right !important;
+       object-position: center right !important;
+  }
+  .object-position-sm-bottom-left {
+    -o-object-position: bottom left !important;
+       object-position: bottom left !important;
+  }
+  .object-position-sm-bottom-center {
+    -o-object-position: bottom center !important;
+       object-position: bottom center !important;
+  }
+  .object-position-sm-bottom-right {
+    -o-object-position: bottom right !important;
+       object-position: bottom right !important;
+  }
+}
+@media (min-width: 768px) {
+  .object-position-md-top-left {
+    -o-object-position: top left !important;
+       object-position: top left !important;
+  }
+  .object-position-md-top-center {
+    -o-object-position: top center !important;
+       object-position: top center !important;
+  }
+  .object-position-md-top-right {
+    -o-object-position: top right !important;
+       object-position: top right !important;
+  }
+  .object-position-md-center-left {
+    -o-object-position: center left !important;
+       object-position: center left !important;
+  }
+  .object-position-md-center {
+    -o-object-position: center !important;
+       object-position: center !important;
+  }
+  .object-position-md-center-right {
+    -o-object-position: center right !important;
+       object-position: center right !important;
+  }
+  .object-position-md-bottom-left {
+    -o-object-position: bottom left !important;
+       object-position: bottom left !important;
+  }
+  .object-position-md-bottom-center {
+    -o-object-position: bottom center !important;
+       object-position: bottom center !important;
+  }
+  .object-position-md-bottom-right {
+    -o-object-position: bottom right !important;
+       object-position: bottom right !important;
+  }
+}
+@media (min-width: 992px) {
+  .object-position-lg-top-left {
+    -o-object-position: top left !important;
+       object-position: top left !important;
+  }
+  .object-position-lg-top-center {
+    -o-object-position: top center !important;
+       object-position: top center !important;
+  }
+  .object-position-lg-top-right {
+    -o-object-position: top right !important;
+       object-position: top right !important;
+  }
+  .object-position-lg-center-left {
+    -o-object-position: center left !important;
+       object-position: center left !important;
+  }
+  .object-position-lg-center {
+    -o-object-position: center !important;
+       object-position: center !important;
+  }
+  .object-position-lg-center-right {
+    -o-object-position: center right !important;
+       object-position: center right !important;
+  }
+  .object-position-lg-bottom-left {
+    -o-object-position: bottom left !important;
+       object-position: bottom left !important;
+  }
+  .object-position-lg-bottom-center {
+    -o-object-position: bottom center !important;
+       object-position: bottom center !important;
+  }
+  .object-position-lg-bottom-right {
+    -o-object-position: bottom right !important;
+       object-position: bottom right !important;
+  }
+}
+@media (min-width: 1200px) {
+  .object-position-xl-top-left {
+    -o-object-position: top left !important;
+       object-position: top left !important;
+  }
+  .object-position-xl-top-center {
+    -o-object-position: top center !important;
+       object-position: top center !important;
+  }
+  .object-position-xl-top-right {
+    -o-object-position: top right !important;
+       object-position: top right !important;
+  }
+  .object-position-xl-center-left {
+    -o-object-position: center left !important;
+       object-position: center left !important;
+  }
+  .object-position-xl-center {
+    -o-object-position: center !important;
+       object-position: center !important;
+  }
+  .object-position-xl-center-right {
+    -o-object-position: center right !important;
+       object-position: center right !important;
+  }
+  .object-position-xl-bottom-left {
+    -o-object-position: bottom left !important;
+       object-position: bottom left !important;
+  }
+  .object-position-xl-bottom-center {
+    -o-object-position: bottom center !important;
+       object-position: bottom center !important;
+  }
+  .object-position-xl-bottom-right {
+    -o-object-position: bottom right !important;
+       object-position: bottom right !important;
+  }
+}
+@media (min-width: 1400px) {
+  .object-position-xxl-top-left {
+    -o-object-position: top left !important;
+       object-position: top left !important;
+  }
+  .object-position-xxl-top-center {
+    -o-object-position: top center !important;
+       object-position: top center !important;
+  }
+  .object-position-xxl-top-right {
+    -o-object-position: top right !important;
+       object-position: top right !important;
+  }
+  .object-position-xxl-center-left {
+    -o-object-position: center left !important;
+       object-position: center left !important;
+  }
+  .object-position-xxl-center {
+    -o-object-position: center !important;
+       object-position: center !important;
+  }
+  .object-position-xxl-center-right {
+    -o-object-position: center right !important;
+       object-position: center right !important;
+  }
+  .object-position-xxl-bottom-left {
+    -o-object-position: bottom left !important;
+       object-position: bottom left !important;
+  }
+  .object-position-xxl-bottom-center {
+    -o-object-position: bottom center !important;
+       object-position: bottom center !important;
+  }
+  .object-position-xxl-bottom-right {
+    -o-object-position: bottom right !important;
+       object-position: bottom right !important;
+  }
+}
+.navbar {
+  border-bottom: 1px solid #d3d3d3;
+  box-shadow: 0 4px 10px rgba(209, 209, 209, 0.5);
+  background-color: #eeeeee;
+}
+.navbar .form-select {
+  background-color: transparent;
+}
+
+#profile {
+  width: 2.25rem;
+  height: 2.25rem;
+  overflow: hidden;
+}
+#profile img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-container {
+  scroll-snap-type: x mandatory;
+}
+.hero-container::-webkit-scrollbar {
+  display: none;
+}
+
+.card-hero {
+  scroll-snap-align: center;
+  height: 250px;
+  position: relative;
+}
+.card-hero .card-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card-hero .card-img-overlay {
+  z-index: 1;
+}
+.card-hero:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Sesuaikan opacity untuk kegelapan */
+  border-radius: 0.5rem; /* Jika kartu punya border-radius */
+}
+
+form {
+  background-color: #e3e3e3;
+}
+form .form-control {
+  background-color: transparent;
+}
+form .form-control:focus {
+  background-color: transparent;
+}
+
+.search-container {
+  background-color: #eeeeee;
+  z-index: 11;
+}
+
+.main-content {
+  z-index: 10;
+}
+.main-content.sticky-top {
+  top: 3rem;
+}
+.main-content .navbar {
+  top: 3.5rem;
+}
+.main-content .navbar-nav {
+  border: 1px solid #d3d3d3;
+}
+.main-content .nav-link {
+  border: 2px solid transparent;
+}
+.main-content .nav-link:hover {
+  background-color: rgba(0, 172, 181, 0.3);
+  border: 2px solid rgba(0, 172, 181, 0.7);
+  color: blue;
+}
+.main-content .nav-link.active {
+  background-color: rgba(0, 172, 181, 0.3);
+  border: 2px solid rgba(0, 172, 181, 0.7);
+  color: blue;
+}
+
+@media (min-width: 992px) {
+  .main-content .navbar-nav {
+    border: 0;
+  }
+}/*# sourceMappingURL=main.css.map */

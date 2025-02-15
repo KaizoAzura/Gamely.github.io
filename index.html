@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gamely - Download, Streaming, and Sell Game</title>
+    <!-- icon browser -->
+    <link rel="icon" type="image/x-icon" href="dist/img/logo/logo-blue.png" />
+    <!-- cdn bs 5.3 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="src/css/root.css" />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <!-- icon link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold fs-6" href="#!">
+          <img
+            src="dist/img/logo/logo-blue.png"
+            alt="Logo"
+            width="45"
+            height="45"
+            class="d-inline-block align-text-center"
+          />
+          Gamely
+        </a>
+        <button
+          class="navbar-toggler text-black order-3"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <i class="ri-menu-line"></i>
+        </button>
+        <!-- profile -->
+        <a href="#!" id="profile" class="rounded-circle order-2 ms-auto">
+          <img src="dist/img/profil.JPG" alt="Profile" />
+        </a>
+        <!-- offcanvas navbar -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link fs-7 fw-medium" aria-current="page" href="#!"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-7 fw-medium" href="#!">Buy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-7 fw-medium" href="#!">Sell</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-7 fw-medium" href="#!">Community</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-7 fw-medium" href="#!">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-7 fw-medium" href="#!">Support</a>
+              </li>
+            </ul>
+            <!-- second menu -->
+            <ul class="navbar-nav me-3">
+              <li class="nav-item">
+                <select
+                  class="form-select fs-7 fw-medium w-auto ps-0 ps-lg-3"
+                  aria-label="Default select example"
+                >
+                  <option selected value="USD">USD</option>
+                  <option value="EUR">EUR</option>
+                  <option value="JPY">JPY</option>
+                  <option value="GBP">GBP</option>
+                </select>
+              </li>
+              <li class="nav-item mt-3 mt-lg-0">
+                <a href="#!" class="btn btn-primary w-100"
+                  ><i class="ri-shopping-cart-fill"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- content -->
+    <div class="container-fluid h-100">
+      <!-- hero section -->
+      <div
+        class="row d-flex align-items-center flex-nowrap overflow-x-auto hero-container py-3"
+      >
+        <div class="col-10 col-sm-8 col-md-6 col-lg-4">
+          <div class="card text-bg-dark card-hero border-0 shadow-sm">
+            <img
+              src="dist/img/bg-content-1.png"
+              class="card-img object-position-sm-bottom-center"
+              alt="top up"
+            />
+            <div class="card-img-overlay">
+              <h5 class="card-title fs-6 fw-bold">TOP UP</h5>
+              <p class="card-text fs-8 fw-light">
+                Easily and securely top up your account in just a few clicks.
+                Enjoy fast transactions and seamless payment processing.
+              </p>
+              <a href="#!" class="btn btn-info fs-8 fw-medium">Top Up Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-8">
+          <div class="card text-bg-dark card-hero border-0 shadow-sm">
+            <img
+              src="dist/img/bg-content-2.jpeg"
+              class="card-img object-position-sm-top-center"
+              alt="game"
+            />
+            <div
+              class="card-img-overlay d-flex flex-column justify-content-end align-items-start"
+            >
+              <h5 class="card-title fs-6 fw-bold">Avowed : Premium Edition</h5>
+              <p class="card-text fs-8 fw-light">
+                Buy premium, play now. Forge your destiny
+              </p>
+              <a href="#!" class="btn btn-light fs-8 fw-medium">$ 82.99</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end hero section -->
+      <!-- search form -->
+      <div
+        class="container-fluid d-flex align-items-center justify-content-center flex-row px-0 sticky-top search-container py-2"
+      >
+        <button class="btn btn-outline-primary me-2">
+          <i class="ri-filter-2-line"></i>
+        </button>
+        <!-- end select search form -->
+        <form class="d-flex rounded w-100 me-2" role="search">
+          <button class="btn" type="submit">
+            <i class="ri-search-2-line"></i>
+          </button>
+          <input
+            class="form-control ps-0"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+        <!-- filter by price -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <select
+              class="form-select fs-7 fw-medium py-2"
+              aria-label="Default select example"
+            >
+              <option selected value="PRC">Price</option>
+              <option value="HTL">Price high to low</option>
+              <option value="LTH">Price low to high</option>
+              <option value="FREE">Free</option>
+            </select>
+          </li>
+        </ul>
+        <button
+          class="ms-2 btn btn-outline-primary d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="ri-menu-line"></i>
+        </button>
+      </div>
+      <!-- end search form -->
+      <!-- main content -->
+      <div class="container-fluid px-0 main-content sticky-top">
+        <div class="row">
+          <div class="col-12 col-lg-2">
+            <nav
+              class="navbar navbar-expand-lg shadow-none border-0 my-2 sticky-top"
+            >
+              <div class="container-fluid px-0">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav rounded p-2 p-lg-0 d-flex flex-column">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active d-flex align-items-center rounded mb-1 px-2 py-1"
+                        href="#!"
+                        ><i class="ri-home-9-line fs-5"></i
+                        ><span class="ms-2 fs-7">Homepage</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center rounded mb-1 px-2 py-1"
+                        href="#!"
+                        ><i class="ri-fire-line fs-5"></i
+                        ><span class="ms-2 fs-7">Popular</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center rounded mb-1 px-2 py-1"
+                        href="#!"
+                        ><i class="ri-trophy-line fs-5"></i
+                        ><span class="ms-2 fs-7">Tournament</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center rounded mb-1 px-2 py-1"
+                        href="#!"
+                        ><i class="ri-box-3-line fs-5"></i
+                        ><span class="ms-2 fs-7">Game Item</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center rounded mb-1 px-2 py-1"
+                        href="#!"
+                        ><i class="ri-book-shelf-line fs-5"></i
+                        ><span class="ms-2 fs-7">Library</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center rounded mb-1 px-2 py-1"
+                        href="#!"
+                        ><i class="ri-file-list-3-line fs-5"></i
+                        ><span class="ms-2 fs-7">News</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-12 col-lg-10 py-lg-3">
+            <div class="row">
+              <div class="col-6 col-sm-4 col-xl-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-xl-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-xl-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-xl-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-sm-4 col-xl-3">
+                <div class="card">
+                  <img src="..." class="card-img-top" alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end main content -->
+    </div>
+    <!-- end content -->
+
+    <!-- cdn script bs 5.3 -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
