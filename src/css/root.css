@@ -21,22 +21,226 @@ body {
   border: 0;
 }
 
+/* Custom responsive font sizes */
+:root {
+  --fs-1: 2.5rem;
+  --fs-2: 2rem;
+  --fs-3: 1.75rem;
+  --fs-4: 1.5rem;
+  --fs-5: 1.25rem;
+  --fs-6: 1rem;
+  --fs-7: 0.9rem;
+  --fs-8: 0.8rem;
+  --fs-9: 0.7rem;
+  --fs-10: 0.6rem;
+}
+
+.fs-1 {
+  font-size: var(--fs-1) !important;
+}
+
+.fs-2 {
+  font-size: var(--fs-2) !important;
+}
+
+.fs-3 {
+  font-size: var(--fs-3) !important;
+}
+
+.fs-4 {
+  font-size: var(--fs-4) !important;
+}
+
+.fs-5 {
+  font-size: var(--fs-5) !important;
+}
+
+.fs-6 {
+  font-size: var(--fs-6) !important;
+}
+
 .fs-7 {
-  font-size: 0.9rem;
+  font-size: var(--fs-7) !important;
 }
 
 .fs-8 {
-  font-size: 0.8rem;
+  font-size: var(--fs-8) !important;
 }
 
 .fs-9 {
-  font-size: 0.7rem;
+  font-size: var(--fs-9) !important;
 }
 
 .fs-10 {
-  font-size: 0.6rem;
+  font-size: var(--fs-10) !important;
 }
 
+/* Responsive font sizes */
+@media (min-width: 576px) {
+  /* Small (sm) */
+  .fs-sm-1 {
+    font-size: var(--fs-1) !important;
+  }
+  .fs-sm-2 {
+    font-size: var(--fs-2) !important;
+  }
+  .fs-sm-3 {
+    font-size: var(--fs-3) !important;
+  }
+  .fs-sm-4 {
+    font-size: var(--fs-4) !important;
+  }
+  .fs-sm-5 {
+    font-size: var(--fs-5) !important;
+  }
+  .fs-sm-6 {
+    font-size: var(--fs-6) !important;
+  }
+  .fs-sm-7 {
+    font-size: var(--fs-7) !important;
+  }
+  .fs-sm-8 {
+    font-size: var(--fs-8) !important;
+  }
+  .fs-sm-9 {
+    font-size: var(--fs-9) !important;
+  }
+  .fs-sm-10 {
+    font-size: var(--fs-10) !important;
+  }
+}
+@media (min-width: 768px) {
+  /* Medium (md) */
+  .fs-md-1 {
+    font-size: var(--fs-1) !important;
+  }
+  .fs-md-2 {
+    font-size: var(--fs-2) !important;
+  }
+  .fs-md-3 {
+    font-size: var(--fs-3) !important;
+  }
+  .fs-md-4 {
+    font-size: var(--fs-4) !important;
+  }
+  .fs-md-5 {
+    font-size: var(--fs-5) !important;
+  }
+  .fs-md-6 {
+    font-size: var(--fs-6) !important;
+  }
+  .fs-md-7 {
+    font-size: var(--fs-7) !important;
+  }
+  .fs-md-8 {
+    font-size: var(--fs-8) !important;
+  }
+  .fs-md-9 {
+    font-size: var(--fs-9) !important;
+  }
+  .fs-md-10 {
+    font-size: var(--fs-10) !important;
+  }
+}
+@media (min-width: 992px) {
+  /* Large (lg) */
+  .fs-lg-1 {
+    font-size: var(--fs-1) !important;
+  }
+  .fs-lg-2 {
+    font-size: var(--fs-2) !important;
+  }
+  .fs-lg-3 {
+    font-size: var(--fs-3) !important;
+  }
+  .fs-lg-4 {
+    font-size: var(--fs-4) !important;
+  }
+  .fs-lg-5 {
+    font-size: var(--fs-5) !important;
+  }
+  .fs-lg-6 {
+    font-size: var(--fs-6) !important;
+  }
+  .fs-lg-7 {
+    font-size: var(--fs-7) !important;
+  }
+  .fs-lg-8 {
+    font-size: var(--fs-8) !important;
+  }
+  .fs-lg-9 {
+    font-size: var(--fs-9) !important;
+  }
+  .fs-lg-10 {
+    font-size: var(--fs-10) !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* Extra Large (xl) */
+  .fs-xl-1 {
+    font-size: var(--fs-1) !important;
+  }
+  .fs-xl-2 {
+    font-size: var(--fs-2) !important;
+  }
+  .fs-xl-3 {
+    font-size: var(--fs-3) !important;
+  }
+  .fs-xl-4 {
+    font-size: var(--fs-4) !important;
+  }
+  .fs-xl-5 {
+    font-size: var(--fs-5) !important;
+  }
+  .fs-xl-6 {
+    font-size: var(--fs-6) !important;
+  }
+  .fs-xl-7 {
+    font-size: var(--fs-7) !important;
+  }
+  .fs-xl-8 {
+    font-size: var(--fs-8) !important;
+  }
+  .fs-xl-9 {
+    font-size: var(--fs-9) !important;
+  }
+  .fs-xl-10 {
+    font-size: var(--fs-10) !important;
+  }
+}
+@media (min-width: 1400px) {
+  /* Extra Extra Large (xxl) */
+  .fs-xxl-1 {
+    font-size: var(--fs-1) !important;
+  }
+  .fs-xxl-2 {
+    font-size: var(--fs-2) !important;
+  }
+  .fs-xxl-3 {
+    font-size: var(--fs-3) !important;
+  }
+  .fs-xxl-4 {
+    font-size: var(--fs-4) !important;
+  }
+  .fs-xxl-5 {
+    font-size: var(--fs-5) !important;
+  }
+  .fs-xxl-6 {
+    font-size: var(--fs-6) !important;
+  }
+  .fs-xxl-7 {
+    font-size: var(--fs-7) !important;
+  }
+  .fs-xxl-8 {
+    font-size: var(--fs-8) !important;
+  }
+  .fs-xxl-9 {
+    font-size: var(--fs-9) !important;
+  }
+  .fs-xxl-10 {
+    font-size: var(--fs-10) !important;
+  }
+}
 .object-position-top-left {
   -o-object-position: top left !important;
      object-position: top left !important;

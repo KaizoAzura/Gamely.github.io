@@ -26,7 +26,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand fw-bold fs-6" href="#!">
+        <a class="navbar-brand fw-bold fs-5 fs-md-6" href="#!">
           <img
             src="dist/img/logo/logo-blue.png"
             alt="Logo"
@@ -37,7 +37,7 @@
           Gamely
         </a>
         <button
-          class="navbar-toggler text-black order-3"
+          class="navbar-toggler text-black order-3 fs-4"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
@@ -57,7 +57,7 @@
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
-          <div class="offcanvas-header">
+          <div class="offcanvas-header shadow-sm">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
             <button
               type="button"
@@ -69,31 +69,36 @@
           <div class="offcanvas-body">
             <ul class="navbar-nav mx-auto">
               <li class="nav-item">
-                <a class="nav-link fs-7 fw-medium" aria-current="page" href="#!"
+                <a
+                  class="nav-link fs-5 fs-lg-7 fw-medium"
+                  aria-current="page"
+                  href="#!"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-7 fw-medium" href="#!">Buy</a>
+                <a class="nav-link fs-5 fs-lg-7 fw-medium" href="#!">Buy</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-7 fw-medium" href="#!">Sell</a>
+                <a class="nav-link fs-5 fs-lg-7 fw-medium" href="#!">Sell</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-7 fw-medium" href="#!">Community</a>
+                <a class="nav-link fs-5 fs-lg-7 fw-medium" href="#!"
+                  >Community</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-7 fw-medium" href="#!">FAQ</a>
+                <a class="nav-link fs-5 fs-lg-7 fw-medium" href="#!">FAQ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fs-7 fw-medium" href="#!">Support</a>
+                <a class="nav-link fs-5 fs-lg-7 fw-medium" href="#!">Support</a>
               </li>
             </ul>
             <!-- second menu -->
             <ul class="navbar-nav me-3">
               <li class="nav-item">
                 <select
-                  class="form-select fs-7 fw-medium w-auto ps-0 ps-lg-3"
+                  class="form-select fs-5 fs-lg-7 fw-medium w-auto ps-0 ps-lg-3"
                   aria-label="Default select example"
                 >
                   <option selected value="USD">USD</option>
@@ -118,7 +123,7 @@
     <div class="container-fluid h-100">
       <!-- hero section -->
       <div
-        class="row d-flex align-items-center flex-nowrap overflow-x-auto hero-container py-3"
+        class="row d-flex align-items-center flex-nowrap overflow-x-auto overflow-y-hidden hero-container py-2"
       >
         <div class="col-10 col-sm-8 col-md-6 col-lg-4">
           <div class="card text-bg-dark card-hero border-0 shadow-sm">
@@ -128,12 +133,12 @@
               alt="top up"
             />
             <div class="card-img-overlay">
-              <h5 class="card-title fs-6 fw-bold">TOP UP</h5>
-              <p class="card-text fs-8 fw-light">
+              <h5 class="card-title fs-4 fw-bold">TOP UP</h5>
+              <p class="card-text fs-7 fw-light">
                 Easily and securely top up your account in just a few clicks.
                 Enjoy fast transactions and seamless payment processing.
               </p>
-              <a href="#!" class="btn btn-info fs-8 fw-medium">Top Up Now</a>
+              <a href="#!" class="btn btn-info fs-7 fw-medium">Top Up Now</a>
             </div>
           </div>
         </div>
@@ -147,11 +152,11 @@
             <div
               class="card-img-overlay d-flex flex-column justify-content-end align-items-start"
             >
-              <h5 class="card-title fs-6 fw-bold">Avowed : Premium Edition</h5>
-              <p class="card-text fs-8 fw-light">
+              <h5 class="card-title fs-4 fw-bold">Avowed : Premium Edition</h5>
+              <p class="card-text fs-7 fw-light">
                 Buy premium, play now. Forge your destiny
               </p>
-              <a href="#!" class="btn btn-light fs-8 fw-medium">$ 82.99</a>
+              <a href="#!" class="btn btn-light fs-7 fw-medium">$ 82.99</a>
             </div>
           </div>
         </div>
@@ -180,7 +185,7 @@
         <ul class="navbar-nav">
           <li class="nav-item">
             <select
-              class="form-select fs-7 fw-medium py-2"
+              class="form-select fs-6 fs-lg-7 fw-medium py-2"
               aria-label="Default select example"
             >
               <option selected value="PRC">Price</option>
@@ -205,14 +210,20 @@
       <!-- end search form -->
       <!-- main content -->
       <div class="container-fluid px-0 main-content sticky-top">
-        <div class="row">
+        <div class="row py-2">
+          <!-- sidebar -->
           <div class="col-12 col-lg-2">
             <nav
-              class="navbar navbar-expand-lg shadow-none border-0 my-2 sticky-top"
+              class="navbar navbar-expand-lg shadow-none border-0 py-0 sticky-top"
             >
               <div class="container-fluid px-0">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav rounded p-2 p-lg-0 d-flex flex-column">
+                <div
+                  class="collapse navbar-collapse mb-2 mb-lg-0"
+                  id="navbarNav"
+                >
+                  <ul
+                    class="navbar-nav rounded p-2 p-lg-0 d-flex flex-column w-100"
+                  >
                     <li class="nav-item">
                       <a
                         class="nav-link active d-flex align-items-center rounded mb-1 px-2 py-1"
@@ -235,6 +246,14 @@
                         href="#!"
                         ><i class="ri-trophy-line fs-5"></i
                         ><span class="ms-2 fs-7">Tournament</span></a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link d-flex align-items-center rounded mb-1 px-2 py-1"
+                        href="#!"
+                        ><i class="ri-robot-2-line fs-5"></i
+                        ><span class="ms-2 fs-7">Streaming</span></a
                       >
                     </li>
                     <li class="nav-item">
@@ -266,75 +285,120 @@
               </div>
             </nav>
           </div>
-          <div class="col-12 col-lg-10 py-lg-3">
-            <div class="row">
-              <div class="col-6 col-sm-4 col-xl-3">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+          <!-- end sidebar -->
+          <!-- content -->
+          <section class="content col-12 col-lg-10">
+            <div
+              class="row d-flex flex-nowrap overflow-x-auto overflow-y-hidden py-2 card-container"
+            >
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+                <a href="#!" class="card card-content text-bg-dark shadow-sm">
+                  <img
+                    src="dist/img/game/minecraft.png"
+                    class="card-img object-position-center"
+                    alt="Minecraft"
+                  />
+                  <div
+                    class="card-img-overlay justify-content-end d-flex flex-column"
+                  >
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
+                      Minecraft: Java & Bedrock Edition for PC
+                    </h5>
+                    <p
+                      class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
+                    >
+                      <small>$99</small>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
-                </div>
+                </a>
               </div>
-              <div class="col-6 col-sm-4 col-xl-3">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+                <a href="#!" class="card card-content text-bg-dark shadow-sm">
+                  <img
+                    src="dist/img/game/minecraft.png"
+                    class="card-img object-position-center"
+                    alt="Minecraft"
+                  />
+                  <div
+                    class="card-img-overlay justify-content-end d-flex flex-column"
+                  >
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
+                      Minecraft: Java & Bedrock Edition for PC
+                    </h5>
+                    <p
+                      class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
+                    >
+                      <small>$99</small>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
-                </div>
+                </a>
               </div>
-              <div class="col-6 col-sm-4 col-xl-3">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+                <a href="#!" class="card card-content text-bg-dark shadow-sm">
+                  <img
+                    src="dist/img/game/minecraft.png"
+                    class="card-img object-position-center"
+                    alt="Minecraft"
+                  />
+                  <div
+                    class="card-img-overlay justify-content-end d-flex flex-column"
+                  >
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
+                      Minecraft: Java & Bedrock Edition for PC
+                    </h5>
+                    <p
+                      class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
+                    >
+                      <small>$99</small>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
-                </div>
+                </a>
               </div>
-              <div class="col-6 col-sm-4 col-xl-3">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+                <a href="#!" class="card card-content text-bg-dark shadow-sm">
+                  <img
+                    src="dist/img/game/minecraft.png"
+                    class="card-img object-position-center"
+                    alt="Minecraft"
+                  />
+                  <div
+                    class="card-img-overlay justify-content-end d-flex flex-column"
+                  >
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
+                      Minecraft: Java & Bedrock Edition for PC
+                    </h5>
+                    <p
+                      class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
+                    >
+                      <small>$99</small>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
-                </div>
+                </a>
               </div>
-              <div class="col-6 col-sm-4 col-xl-3">
-                <div class="card">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+                <a href="#!" class="card card-content text-bg-dark shadow-sm">
+                  <img
+                    src="dist/img/game/minecraft.png"
+                    class="card-img object-position-center"
+                    alt="Minecraft"
+                  />
+                  <div
+                    class="card-img-overlay justify-content-end d-flex flex-column"
+                  >
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
+                      Minecraft: Java & Bedrock Edition for PC
+                    </h5>
+                    <p
+                      class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
+                    >
+                      <small>$99</small>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
-          </div>
+          </section>
+          <!-- end content -->
         </div>
       </div>
       <!-- end main content -->
