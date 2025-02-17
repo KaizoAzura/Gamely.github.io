@@ -513,6 +513,7 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: 0.3s;
 }
 .card-hero .card-img-overlay {
   z-index: 1;

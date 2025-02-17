@@ -143,12 +143,20 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-8">
-          <div class="card text-bg-dark card-hero border-0 shadow-sm">
+          <div
+            class="card text-bg-dark card-hero border-0 shadow-sm position-relative"
+            onmouseover="showVideo(this)"
+            onmouseout="showImage(this)"
+          >
             <img
               src="dist/img/bg-content-2.jpeg"
-              class="card-img object-position-sm-top-center"
+              class="card-img object-position-sm-top-center media-image"
               alt="game"
             />
+            <video class="card-img media-video d-none" loop muted>
+              <source src="dist/vid/videoplayback.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div
               class="card-img-overlay d-flex flex-column justify-content-end align-items-start"
             >
@@ -156,7 +164,7 @@
               <p class="card-text fs-7 fw-light">
                 Buy premium, play now. Forge your destiny
               </p>
-              <a href="#!" class="btn btn-light fs-7 fw-medium">$ 82.99</a>
+              <a href="#" class="btn btn-light fs-7 fw-medium">$ 82.99</a>
             </div>
           </div>
         </div>
@@ -291,7 +299,7 @@
             <div
               class="row d-flex flex-nowrap overflow-x-auto overflow-y-hidden py-2 card-container"
             >
-              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3 col-xxl-2">
                 <a href="#!" class="card card-content text-bg-dark shadow-sm">
                   <img
                     src="dist/img/game/minecraft.png"
@@ -307,91 +315,85 @@
                     <p
                       class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
                     >
-                      <small>$99</small>
+                      <small>$29.99</small>
                     </p>
                   </div>
                 </a>
               </div>
-              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3 col-xxl-2">
                 <a href="#!" class="card card-content text-bg-dark shadow-sm">
                   <img
-                    src="dist/img/game/minecraft.png"
+                    src="dist/img/game/roblox.jpg"
                     class="card-img object-position-center"
-                    alt="Minecraft"
+                    alt="roblox.jpg"
                   />
                   <div
                     class="card-img-overlay justify-content-end d-flex flex-column"
                   >
-                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
-                      Minecraft: Java & Bedrock Edition for PC
-                    </h5>
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">Roblox</h5>
                     <p
                       class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
                     >
-                      <small>$99</small>
+                      <small>Free</small>
                     </p>
                   </div>
                 </a>
               </div>
-              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3 col-xxl-2">
                 <a href="#!" class="card card-content text-bg-dark shadow-sm">
                   <img
-                    src="dist/img/game/minecraft.png"
+                    src="dist/img/game/pubg.jpg"
                     class="card-img object-position-center"
-                    alt="Minecraft"
+                    alt="pubg.jpg"
                   />
                   <div
                     class="card-img-overlay justify-content-end d-flex flex-column"
                   >
-                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
-                      Minecraft: Java & Bedrock Edition for PC
-                    </h5>
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">PUBG</h5>
                     <p
                       class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
                     >
-                      <small>$99</small>
+                      <small>Free</small>
                     </p>
                   </div>
                 </a>
               </div>
-              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3 col-xxl-2">
                 <a href="#!" class="card card-content text-bg-dark shadow-sm">
                   <img
-                    src="dist/img/game/minecraft.png"
+                    src="dist/img/game/Age_of_Empires_II.jpeg"
                     class="card-img object-position-center"
-                    alt="Minecraft"
+                    alt="Age_of_Empires_II.jpeg"
                   />
                   <div
                     class="card-img-overlay justify-content-end d-flex flex-column"
                   >
                     <h5 class="card-title mb-0 fs-5 fs-sm-6">
-                      Minecraft: Java & Bedrock Edition for PC
+                      Age of Empires II : Definitive Edition
                     </h5>
                     <p
                       class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
                     >
-                      <small>$99</small>
+                      <small>$18.99</small>
                     </p>
                   </div>
                 </a>
               </div>
-              <div class="col-10 col-sm-5 col-md-4 col-xl-3">
+              <div class="col-10 col-sm-5 col-md-4 col-xl-3 col-xxl-2">
                 <a href="#!" class="card card-content text-bg-dark shadow-sm">
                   <img
-                    src="dist/img/game/minecraft.png"
+                    src="dist/img/game/overcooked.jpg"
                     class="card-img object-position-center"
-                    alt="Minecraft"
+                    alt="overcooked"
                   />
                   <div
                     class="card-img-overlay justify-content-end d-flex flex-column"
                   >
-                    <h5 class="card-title mb-0 fs-5 fs-sm-6">
-                      Minecraft: Java & Bedrock Edition for PC
-                    </h5>
+                    <h5 class="card-title mb-0 fs-5 fs-sm-6">Overcooked 2</h5>
                     <p
                       class="btn btn-outline-light fs-6 fs-sm-7 w-auto mb-0 mt-2"
                     >
-                      <small>$99</small>
+                      <small>$12.00</small>
                     </p>
                   </div>
                 </a>
